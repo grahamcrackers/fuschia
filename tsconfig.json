@@ -1,0 +1,3 @@
+{
+  "extends": "@fuschia/typescript-config/base.json"
+}

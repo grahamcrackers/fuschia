@@ -1,0 +1,31 @@
+{
+    "name": "@fuschia/graphql",
+    "version": "0.0.0",
+    "private": true,
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "scripts": {
+        "codegen": "graphql-codegen --config codegen.ts",
+        "lint": "eslint . --max-warnings 0"
+    },
+    "dependencies": {
+        "graphql": "^16.8.1",
+        "graphql-request": "^6.1.0",
+        "ts-toolbelt": "^9.6.0"
+    },
+    "devDependencies": {
+        "@fuschia/eslint-config": "*",
+        "@fuschia/typescript-config": "*",
+        "@graphql-codegen/cli": "^5.0.2",
+        "@graphql-codegen/client-preset": "^4.2.4",
+        "@types/dotenv": "^8.2.0",
+        "@types/eslint": "^8.56.1",
+        "@types/node": "^20.10.6",
+        "@types/react": "^18.2.46",
+        "@types/react-dom": "^18.2.18",
+        "dotenv": "^16.4.5",
+        "eslint": "^8.56.0",
+        "typescript": "^5.3.3"
+    }
+}

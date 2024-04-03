@@ -1,0 +1,8 @@
+{
+    "extends": "@fuschia/typescript-config/react-library.json",
+    "compilerOptions": {
+        "outDir": "dist"
+    },
+    "include": ["src", "turbo", "codegen.ts"],
+    "exclude": ["node_modules", "dist"]
+}

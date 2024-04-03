@@ -1,0 +1,11 @@
+{
+    "eslint.workingDirectories": [
+        "./apps/docs",
+        "./apps/storefront",
+        "./packages/eslint-config",
+        "./packages/graphql",
+        "./packages/typescript-config",
+        "./packages/ui"
+    ],
+    "typescript.preferences.importModuleSpecifier": "shortest"
+}

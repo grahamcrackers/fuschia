@@ -1,0 +1,10 @@
+@tailwind base;
+
+@layer base {
+    .cms-blocks {
+        all: revert;
+    }
+}
+
+@tailwind components;
+@tailwind utilities;
