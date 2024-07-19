@@ -2,7 +2,9 @@
 
 A headless storefront based on [Magento / Adobe Commerce](magento)'s graphql endpoints, [Nextjs](nextjs), and [TailwindCSS](tailwlind). This project basically came from a need to have an easier development environment to test some of the feature development for Adobe Commerce and making sure that headless features are supported.
 
-> [!WARNING] > **This project _IS NOT_ production ready.** I'm not sure that it will ever be. This is mainly a development playground for a magento graphql backend and nextjs storefront.
+> [!WARNING]
+>
+> **This project _IS NOT_ production ready.** I'm not sure that it will ever be. This is mainly a development playground for a magento graphql backend and nextjs storefront.
 
 ## Setting Up This Project
 
